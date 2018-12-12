@@ -16,3 +16,8 @@ sudo apt-get install qtgstreamer-plugins-qt5
 CONFIG += link_pkgconfig
 PKGCONFIG += gstreamer-1.0 glib-2.0 gobject-2.0
 ```
+# Qt Thread
+https://www.youtube.com/watch?v=PR6wVy7Et1A
+```
+
+```
