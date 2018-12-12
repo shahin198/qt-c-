@@ -11,3 +11,8 @@ $ sudo apt-get install qt5-doc qt5-doc-html qtbase5-doc-html qtbase5-examples -y
 sudo apt-get update
 sudo apt-get install qtgstreamer-plugins-qt5
 ```
+# Gstreamer config ( add blow line on project confige file)
+```
+CONFIG += link_pkgconfig
+PKGCONFIG += gstreamer-1.0 glib-2.0 gobject-2.0
+```
